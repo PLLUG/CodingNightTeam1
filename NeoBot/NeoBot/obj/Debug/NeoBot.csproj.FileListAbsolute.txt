@@ -38,3 +38,43 @@ c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\zh-hans\Micr
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.dll
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.dll.config
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.pdb
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Autofac.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Chronic.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Newtonsoft.Json.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Net.Http.Formatting.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.WebHost.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Autofac.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\Newtonsoft.Json.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Net.Http.Formatting.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.WebHost.xml
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\Bot Application.dll
+D:\CodingNight\test\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
