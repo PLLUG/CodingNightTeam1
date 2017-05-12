@@ -18,7 +18,8 @@ namespace NeoBot
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.LuisFoodDialog());
+                //await Conversation.SendAsync(activity, () => new Dialogs.LuisFoodDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.ApiAIDialog());
             }
             else
             {
