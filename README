@@ -4,3 +4,10 @@ Hi from Ulyana
 Hello from Natali
 Hello from Marta
 Hello
+
+
+If you want to chat using API.AI:
+    Connect to http://localhost:3979/api/apiai
+
+If you want to chat using Luis:
+    Connect to http://localhost:3979/api/messages
