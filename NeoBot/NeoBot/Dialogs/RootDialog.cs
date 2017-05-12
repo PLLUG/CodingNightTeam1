@@ -24,6 +24,7 @@ namespace NeoBot.Dialogs
 
             // return our reply to the user
             await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+
             await context.PostAsync($"Result: {Routes.Direction.GetUrlDirection(-33.8670522, 151.1957362, -33.0690522, 151.1959362)}");
 
             context.Wait(MessageReceivedAsync);
