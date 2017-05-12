@@ -16,7 +16,9 @@ namespace NeoBot.Dialogs
         [LuisIntent("Pick restaurant")]
         public async Task TurnOffAlarm(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync($"You should visit Bella Ciao");
+            var cusine = GetCuisine(result) ?? "casual";
+
+            await context.PostAsync($"You should visit Bella Ciao. They have the best {cusine} food");
             context.Wait(MessageReceived);
         }
 
@@ -40,5 +42,18 @@ namespace NeoBot.Dialogs
             await context.PostAsync("I will try to help you)");
             context.Wait(MessageReceived);
         }
+
+        #region Private
+        private static string GetCuisine(LuisResult result)
+        {
+            return mapParameter(result.Entities, NAME);
+        }
+
+        private static string mapParameter(IList<EntityRecommendation> entities, string type)
+        {
+            return entities.FirstOrDefault(it => it.Type == type)?.Entity;
+        }
+        private const string NAME = "Places.Cuisine";
+        #endregion
     }
 }
