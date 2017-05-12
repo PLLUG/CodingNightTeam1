@@ -38,3 +38,54 @@ c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\zh-hans\Micr
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.dll
 c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.dll.config
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Bot Application.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Autofac.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Chronic.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Rest.ClientRuntime.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Newtonsoft.Json.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Net.Http.Formatting.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.WebHost.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Autofac.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Newtonsoft.Json.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Net.Http.Formatting.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\System.Web.Http.WebHost.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\Bot Application.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.Core.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.PlatformServices.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Zlib.Portable.dll
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.Core.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.Core.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.PlatformServices.pdb
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Google.Apis.PlatformServices.xml
+d:\Studying\Programming\Projects\CodingNightTeam1\NeoBot\NeoBot\bin\Zlib.Portable.xml
