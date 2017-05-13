@@ -13,12 +13,17 @@ namespace NeoBot.Dialogs
     [Serializable]
     public class LuisFoodDialog : LuisDialog<object>
     {
+        public string TypeofFood { get; set; }
+        public string Cuisine { get; set; }
+        public string Name { get; set; }
+        public string TypeofPlace { get; set; }
+
         [LuisIntent("Pick restaurant")]
         public async Task TurnOffAlarm(IDialogContext context, LuisResult result)
         {
-            var cusine = GetCuisine(result) ?? "casual";
-
-            await context.PostAsync($"You should visit Bella Ciao. They have the best {cusine} food");
+            Cuisine = GetCuisine(result);
+            TypeofFood = mapParameter(result.Entities, "Places.MealType");
+            await context.PostAsync($"You should visit Bella Ciao. They have the best {Cuisine} food");
             context.Wait(MessageReceived);
         }
 
@@ -32,7 +37,7 @@ namespace NeoBot.Dialogs
         [LuisIntent("Greetings")]
         public async Task SayHi(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync("Hi,friend!");
+            await context.PostAsync("Hi,friend! My name is Neo");
             context.Wait(MessageReceived);
         }
 
@@ -40,6 +45,36 @@ namespace NeoBot.Dialogs
         public async Task Help(IDialogContext context, LuisResult result)
         {
             await context.PostAsync("I will try to help you)");
+            context.Wait(MessageReceived);
+        }
+
+        [LuisIntent("Get.Cuisine")]
+        public async Task GetCuisine(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("I will try to help you)");
+            context.Wait(MessageReceived);
+        }
+     
+        [LuisIntent("Get.TypeofFood")]
+        public async Task GetTypeofFood(IDialogContext context, LuisResult result)
+        {
+            TypeofFood = mapParameter(result.Entities, "Places.MealType");
+            await context.PostAsync($"Got it. I`ll find you some {TypeofFood} for you");
+            context.Wait(MessageReceived);
+        }
+
+        [LuisIntent("Bye")]
+        public async Task Bye(IDialogContext context, LuisResult result)
+        {
+            await context.PostAsync("Bye. It was nice to meet you)");
+            context.Wait(MessageReceived);
+        }
+
+        [LuisIntent("TypeofPlace")]
+        public async Task GetTypeofPlace(IDialogContext context, LuisResult result)
+        {
+            TypeofPlace = mapParameter(result.Entities, "Places.PlaceType");
+            await context.PostAsync($"Ok, I`ll find you some good {TypeofPlace}");
             context.Wait(MessageReceived);
         }
 
