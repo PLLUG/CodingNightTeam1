@@ -15,7 +15,7 @@ namespace NeoBot.Dialogs
     {
         public string TypeofFood { get; set; }
         public string Cuisine { get; set; }
-        public string Name { get; set; }
+        //public string Name { get; set; }
         public string TypeofPlace { get; set; }
 
         [LuisIntent("Pick restaurant")]
@@ -51,7 +51,8 @@ namespace NeoBot.Dialogs
         [LuisIntent("Get.Cuisine")]
         public async Task GetCuisine(IDialogContext context, LuisResult result)
         {
-            await context.PostAsync("I will try to help you)");
+            Cuisine = GetCuisine(result);
+            await context.PostAsync($"Ok) I think {Cuisine} food is very delicious");
             context.Wait(MessageReceived);
         }
      
@@ -70,7 +71,7 @@ namespace NeoBot.Dialogs
             context.Wait(MessageReceived);
         }
 
-        [LuisIntent("TypeofPlace")]
+        [LuisIntent("Get.TypeofPlace")]
         public async Task GetTypeofPlace(IDialogContext context, LuisResult result)
         {
             TypeofPlace = mapParameter(result.Entities, "Places.PlaceType");
