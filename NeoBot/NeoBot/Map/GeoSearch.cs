@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -13,11 +14,13 @@ namespace NeoBot.Map
     {
         public static string GetUrlDirection (double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)
         {   // return string-url with route
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             return $"www.google.com/maps/dir/{fromLatitude},{fromLongitude}/{toLatitude},{toLongitude}";
         }
 
         public async static Task<List<Data_Base.GeoObject>> GetPlacesNearBy(double latitude, double longtitude, int radius, string type, string keyword)
         {
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             using (var client = new HttpClient())
             {
                 var taskResult = await client.GetStringAsync($"https://maps.googleapis.com/maps/api/place/radarsearch/json?location={latitude},{longtitude}&radius={radius}&type={type}&keyword={keyword}&key=AIzaSyAAbEr0yr0AP-a7wbmghSyKHKGiyvlNCuA");
