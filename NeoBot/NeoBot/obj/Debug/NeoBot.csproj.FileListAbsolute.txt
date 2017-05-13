@@ -1,0 +1,84 @@
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Bot Application.dll.config
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Bot Application.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Bot Application.pdb
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Autofac.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Chronic.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Newtonsoft.Json.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Net.Http.Formatting.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Web.Http.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Web.Http.WebHost.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Autofac.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\Newtonsoft.Json.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Net.Http.Formatting.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Web.Http.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\System.Web.Http.WebHost.xml
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.dll
+c:\users\yo\documents\visual studio 2015\Projects\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Bot Application.dll.config
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Bot Application.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Bot Application.pdb
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Autofac.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Chronic.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Newtonsoft.Json.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Net.Http.Formatting.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Web.Http.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Web.Http.WebHost.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Autofac.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Connector.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Newtonsoft.Json.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Net.Http.Formatting.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Web.Http.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\System.Web.Http.WebHost.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Code_Of_Night\NeoBot\NeoBot\obj\Debug\Bot Application.dll
+C:\Code_Of_Night\NeoBot\NeoBot\obj\Debug\Bot Application.pdb
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Location.dll
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Location.pdb
+C:\Code_Of_Night\NeoBot\NeoBot\bin\Microsoft.Bot.Builder.Location.xml
+C:\Code_Of_Night\NeoBot\NeoBot\obj\Debug\NeoBot.csprojResolveAssemblyReference.cache

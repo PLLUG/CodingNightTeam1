@@ -1,9 +1,14 @@
-﻿using System.Net;
+﻿using System;
+using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Web.Configuration;
 using System.Web.Http;
 using Microsoft.Bot.Builder.Dialogs;
+using Microsoft.Bot.Builder.Location;
 using Microsoft.Bot.Connector;
+using System.Threading;
 
 namespace NeoBot
 {
@@ -56,5 +61,7 @@ namespace NeoBot
 
             return null;
         }
+
+       
     }
 }
