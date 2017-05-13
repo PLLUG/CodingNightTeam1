@@ -1,19 +1,14 @@
-﻿using System;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Web.Configuration;
 using System.Web.Http;
 using Microsoft.Bot.Builder.Dialogs;
-using Microsoft.Bot.Builder.Location;
 using Microsoft.Bot.Connector;
-using System.Threading;
 
 namespace NeoBot
 {
     [BotAuthentication]
-    public class MessagesController : ApiController
+    public class ApiaiController : ApiController
     {
         /// <summary>
         /// POST: api/Messages
@@ -22,8 +17,9 @@ namespace NeoBot
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
         {
             if (activity.Type == ActivityTypes.Message)
-            {                
-                await Conversation.SendAsync(activity, () => new Dialogs.LuisFoodDialog());
+            {
+                //await Conversation.SendAsync(activity, () => new Dialogs.LuisFoodDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.ApiAIDialog());
             }
             else
             {
@@ -61,7 +57,5 @@ namespace NeoBot
 
             return null;
         }
-
-       
     }
 }
