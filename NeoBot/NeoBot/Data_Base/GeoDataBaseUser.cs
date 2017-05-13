@@ -13,6 +13,8 @@ namespace NeoBot.Data_Base
         private double UserLat { get; set; }
         private double UserLon { get; set; }
 
+        public string Food { get; set; }
+
         // Constructors
         public GeoDataBaseUser()
         {
@@ -21,15 +23,16 @@ namespace NeoBot.Data_Base
         }
 
         // Members
-        public void UserLocation(double latitude, double longetude)
+        public void UserLocationAndFood(double latitude, double longetude, string food)
         {
+            Food = food;
             UserLat = latitude;
             UserLon = longetude;
         }
 
         public Path GetPoints()
         {
-            return new Path(DataBase.FindClosest(UserLat, UserLon), UserLat, UserLon);
+            return new Path(DataBase.FindClosest(UserLat, UserLon, Food), UserLat, UserLon);
         }
     }
 

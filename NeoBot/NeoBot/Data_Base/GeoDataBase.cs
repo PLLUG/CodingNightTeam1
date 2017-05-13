@@ -28,18 +28,18 @@ namespace NeoBot.Data_Base
             while((line = stream.ReadLine()) != null)
             {
                 string[] args = line.Split(' ');
-                if (args.Length != 4)
+                if (args.Length != 5)
                 {
                     throw new Exception("Wrong input!");
                 }
-                Data.Add(new GeoObject(args[0], args[1], double.Parse(args[2]), double.Parse(args[3])));
+                Data.Add(new GeoObject(args[0], args[1], args[2], double.Parse(args[3]), double.Parse(args[4])));
             }
 
             stream.Close();
             file.Close();
         }
 
-        public GeoObject FindClosest(double latitude, double longitude) // For example 49.841879, 24.018330
+        public GeoObject FindClosest(double latitude, double longitude, string food) // For example 49.841879, 24.018330
         {
             int index = 0;
             double minLength = double.MaxValue;
@@ -52,7 +52,7 @@ namespace NeoBot.Data_Base
             for (int i = 0; i < Data.Count; i++)
             {
                 double currLength = Math.Sqrt(Math.Pow(latitude - Data[i].Latitude, 2) + Math.Pow(longitude - Data[i].Longitude, 2));
-                if (minLength > currLength)
+                if (minLength > currLength && food == Data[i].Food)
                 {
                     index = i;
                     minLength = currLength;
