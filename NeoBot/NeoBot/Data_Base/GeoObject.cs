@@ -10,6 +10,7 @@ namespace NeoBot.Data_Base
         // Properties
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Food { get; set; }
 
         public double Latitude { get; set; }
         public double Longitude { get; set; }
@@ -20,14 +21,13 @@ namespace NeoBot.Data_Base
             // Empty
         }
 
-        public GeoObject(string name, string description, double latitude, double longitude)
+        public GeoObject(string name, string description, string food, double latitude, double longitude)
         {
             Name = name;
             Description = description;
+            Food = food;
             Latitude = latitude;
             Longitude = longitude;
         }
-
-        // Methods
     }
 }
