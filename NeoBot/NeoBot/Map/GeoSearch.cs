@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace NeoBot.Map
+namespace NeoBot.Routes
 {
     public class GeoSearch
     {
@@ -16,7 +16,7 @@ namespace NeoBot.Map
             return $"www.google.com/maps/dir/{fromLatitude},{fromLongitude}/{toLatitude},{toLongitude}";
         }
 
-        public async static Task<List<Data_Base.GeoObject>> GetPlacesNearBy(double latitude, double longtitude, int radius, string type, string keyword)
+        public async static Task<string> GetPlacesNearBy(double latitude, double longtitude, int radius, string type, string keyword)
         {
             using (var client = new HttpClient())
             {
@@ -33,9 +33,8 @@ namespace NeoBot.Map
                     string name = (string)((item)["name"]);
                     cafes.Add(new Data_Base.GeoObject(name, string.Empty, string.Empty, lat, lng));
                 }
-                return cafes;
+                return taskResult;
             }
-            return new List<Data_Base.GeoObject>();
         }
     }
 }

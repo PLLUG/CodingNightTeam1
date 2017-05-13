@@ -61,9 +61,6 @@ namespace NeoBot.Dialogs
         {
             TypeofFood = mapParameter(result.Entities, "Places.MealType");
             await context.PostAsync($"Got it. I`ll find you some {TypeofFood} for you");
-            var cafes = await NeoBot.Map.GeoSearch.GetPlacesNearBy(49.836178,24.031274, 5000, "cafe", TypeofFood);
-            Data_Base.GeoObject first = cafes.First();
-            await context.PostAsync(Map.GeoSearch.GetUrlDirection(49.811585, 24.019715, first.Latitude, first.Longitude));
             context.Wait(MessageReceived);
         }
 
