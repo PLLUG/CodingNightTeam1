@@ -31,7 +31,7 @@ namespace NeoBot.Routes
                     double lat = (double)(item)["geometry"]["location"]["lat"];
                     double lng = (double)(item)["geometry"]["location"]["lng"];
                     string name = (string)((item)["name"]);
-                    cafes.Add(new Data_Base.GeoObject(name, string.Empty, lat, lng));
+                    cafes.Add(new Data_Base.GeoObject(name, string.Empty, string.Empty, lat, lng));
                 }
                 return taskResult;
             }

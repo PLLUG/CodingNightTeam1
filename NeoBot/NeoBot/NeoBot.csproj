@@ -131,8 +131,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Map\GeoSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Routes\Direction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
